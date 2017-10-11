@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("../img/wp1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#menu {
+  margin: 10px auto;
+  width: 400px;
+}
+
+#menu a {
+  position: relative;
+  top: 0px;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 20px 20px 10px 20px;
+  text-decoration: none;
+  margin: 0 10px;
+  background-color: lightgray;
+}
+
+#menu a:hover {
+  background-color: gray;
+  color: white;
+}
+
+p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+#wrapPage {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#wrapTable {
+  margin: 0 auto;
+}
+
+.objectWrap {
+  margin: 0 auto;
+}
+
+#test {
+  width: 500px;
+  height: 500px;
+}
+
+#datTbl {
+  border: 1px solid black;
+  border-radius: 6px;
+  border-spacing: 0;
+  text-align: center;
+  width: 500px;
+  margin: 20px 0;
+}
+
+td {
+  padding: 10px 0;
+}
+
+tr {
+  color: black;
+  font-weight: bold;
+}
+
+tr.rows td {
+  border-bottom: 1px solid black;
+}
+
+input:hover, select:hover, textarea:hover {
+  -webkit-box-shadow: 0px 0px 5px -5px rgba(139, 0, 139, 1);
+  -moz-box-shadow: 0px 0px 5px -5px rgba(139, 0, 139, 1);
+  box-shadow: 0px 0px 5px -5px rgba(139, 0, 139, 1);
+}
+
+input:focus, select:focus, textarea:focus {
+  -webkit-box-shadow: 0px 0px 3px -3px rgba(139, 0, 139, 1);
+  -moz-box-shadow: 0px 0px 3px -3px rgba(139, 0, 139, 1);
+  box-shadow: 0px 0px 3px -3px rgba(139, 0, 139, 1);
+}
+
+.disabledItem {
+  color: lightgray;
+}
+
+#adCallBtn {
+  padding: 15px 20px;
+  margin: 10px auto
+}
+
+#adCallField {
+  padding: 5px 10px;
+  margin: 10px auto;
+  width: 600px;
+}
+
+#outputText {
+  width: 650px;
+  height: 310px;
+  float: right;
+  margin: 0 auto;
+}
+
+table.button {
+  padding: 2px;
+}
+
+
+/*#sc_test {
+  width: 100%;
+  height: 100%;
+}*/
